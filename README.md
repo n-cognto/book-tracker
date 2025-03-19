@@ -66,80 +66,6 @@ A comprehensive web application to track and manage your book reading progress, 
 
 7. Open your browser and navigate to http://127.0.0.1:8000/
 
-## Project Structure
-
-```
-book_tracker/
-├── book_tracker/       # Main project configuration
-├── books/              # Book management app
-├── accounts/           # User authentication app
-├── templates/          # HTML templates
-│   ├── base.html
-│   ├── books/
-│   └── registration/
-└── static/             # Static files (CSS, JavaScript)
-    ├── css/
-    └── js/
-```
-
-## User Guide
-
-### Registration and Login
-
-1. Navigate to the registration page to create an account
-2. After registering, you'll be automatically logged in
-3. For returning users, use the login page
-4. If you forget your password, use the "Forgot Password" link
-
-### Adding Books
-
-1. Click on "Add Book" in the navigation menu
-2. Fill in the book details (title, author, page count, etc.)
-3. Select the reading status
-4. Click "Add Book" to save
-
-### Tracking Reading Progress
-
-1. Go to "My Books" to see your collection
-2. For books you're currently reading, click "Update Progress"
-3. Enter your current page number and update status if needed
-4. The system will automatically calculate your completion percentage
-
-### Using the Dashboard
-
-1. The dashboard provides a quick overview of your reading activity
-2. See currently reading books, completion percentages, and reading stats
-3. Track your progress toward reading goals
-
-## Development
-
-### Running Tests
-
-```
-python manage.py test
-```
-
-### Creating New Apps
-
-```
-python manage.py startapp appname
-```
-
-## Deployment
-
-For production deployment:
-
-1. Update `settings.py` with production settings:
-   - Set `DEBUG = False`
-   - Update `ALLOWED_HOSTS`
-   - Configure a production database (PostgreSQL recommended)
-
-2. Collect static files:
-   ```
-   python manage.py collectstatic
-   ```
-
-3. Set up a production web server (Gunicorn, Nginx, etc.)
 
 ## Contributing
 
@@ -161,4 +87,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 
-For questions or feedback, please contact [your-email@example.com](mailto:your-email@example.com)
+For questions or feedback, please contact [support@mail.com](mailto:benardopeter4@gmail.com)
